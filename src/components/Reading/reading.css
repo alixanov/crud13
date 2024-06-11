@@ -1,0 +1,18 @@
+.reading__container {
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    flex-direction: column;
+    padding: 10px;
+}
+.reading__container > p {
+    font-size: 22px;
+    color: #222222;
+}
+.reading__container > a {
+    width: 300px;
+    text-decoration: none;
+    color: #222222;
+    font-size: 25px;
+    font-weight: 500;
+}

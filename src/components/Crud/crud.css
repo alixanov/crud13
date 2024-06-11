@@ -1,0 +1,115 @@
+.table__container {
+  max-width: 90%;
+  margin: 2rem auto;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.table__container  > a {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        background-color: rgb(255, 121, 72);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+    margin: 8px;
+            transition: .2s ease;
+
+}
+.table__container  > a:hover {
+    background-color: orangered;
+        transition: .2s ease;
+
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+thead {
+  background: linear-gradient(90deg, #4b79a1, #283e51);
+  color: white;
+}
+
+th, td {
+  padding: 1rem;
+  text-align: left;
+}
+
+th {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #d3e0ea;
+  transition: background-color 0.3s ease;
+}
+
+tbody tr td {
+  position: relative;
+}
+tr >  td >a:nth-child(1) {
+    width: 80px;
+    height: 35px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+    padding: 8px;
+    transition: .2s ease;
+      text-decoration: none;
+
+
+}
+tr >  td >a:nth-child(1):hover {
+    background-color: rgb(14, 147, 14);
+    transition: .2s ease;
+}
+tr >  td >button:nth-child(2) {
+    width: 80px;
+    height: 35px;
+    background-color: rgb(158, 4, 35);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+            transition: .2s ease;
+
+}
+tr >  td >button:nth-child(2):hover {
+    background-color: crimson;
+    transition: .2s ease;
+}
+
+
+tr >  td >a:nth-child(3) {
+    width: 80px;
+    height: 35px;
+    background-color: rgb(36, 50, 241);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+    padding: 8px;
+    transition: .2s ease;
+      text-decoration: none;
+
+
+}
