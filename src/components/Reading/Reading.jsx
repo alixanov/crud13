@@ -12,7 +12,7 @@ const Reading = () => {
 
       useEffect(() => {
         axios
-          .get(`https://6666c378a2f8516ff7a4cbcb.mockapi.io/users/${id}`)
+          .get(`https://668f62c780b313ba0917e986.mockapi.io/register/${id}`)
           .then((res) => setData(res.data))
           .catch((err) => console.log(err));
       }, [id]);

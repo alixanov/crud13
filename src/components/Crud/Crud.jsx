@@ -11,7 +11,7 @@ const Crud = () => {
 
   useEffect(() => {
     axios
-      .get("https://6666c378a2f8516ff7a4cbcb.mockapi.io/users")
+      .get("https://668f62c780b313ba0917e986.mockapi.io/register")
       .then((res) => setData(res.data))
       .catch((err) => console.log(err));
 
@@ -61,7 +61,7 @@ const confirm = window.confirm("Malumotni uchirishni istaysizmi ?")
 
     if(confirm){
        axios
-         .delete(`https://6666c378a2f8516ff7a4cbcb.mockapi.io/users/${id}`  )
+         .delete(`https://668f62c780b313ba0917e986.mockapi.io/register/${id}`  )
          .then((res) => {
            alert("Muvofiqiyatli uchirildi");
            navigate("/");
