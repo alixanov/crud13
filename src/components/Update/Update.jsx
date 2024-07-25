@@ -15,7 +15,7 @@ const Update = () => {
 
   useEffect(() => {
     axios
-      .get(`https://668f62c780b313ba0917e986.mockapi.io/register/${id}`)
+      .get(`https://665ebce91e9017dc16f12c41.mockapi.io/groups/${id}`)
       .then((res) => setInputData(res.data))
       .catch((err) => console.log(err));
   }, [id]);
@@ -23,7 +23,7 @@ const Update = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .put(`https://668f62c780b313ba0917e986.mockapi.io/register/${id}`, inputData)
+      .put(`https://665ebce91e9017dc16f12c41.mockapi.io/groups/${id}`, inputData)
       .then((res) => {
         alert("Data updated successfully");
         navigate("/");

@@ -11,7 +11,7 @@ const Crud = () => {
 
   useEffect(() => {
     axios
-      .get("https://668f62c780b313ba0917e986.mockapi.io/register")
+      .get("https://665ebce91e9017dc16f12c41.mockapi.io/groups")
       .then((res) => setData(res.data))
       .catch((err) => console.log(err));
 

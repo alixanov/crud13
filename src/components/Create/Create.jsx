@@ -18,7 +18,7 @@ const Create = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.post("https://668f62c780b313ba0917e986.mockapi.io/register",inputData)
+    axios.post("https://665ebce91e9017dc16f12c41.mockapi.io/groups",inputData)
       .then((res) => {
         alert("Data post succesfuly")
         
